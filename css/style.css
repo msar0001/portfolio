@@ -1,0 +1,90 @@
+@import url('./theme.css');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+li,
+input {
+    font-family: 'Poppins', sans-serif;
+}
+
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.border-radius-20 {
+    border-radius: 20px;
+}
+
+.slide-content {
+    bottom: 120px;
+    background: rgba(255, 255, 255, 0.7);
+
+}
+
+.service-card {
+    max-height: 450px;
+    height: 100%;
+}
+
+.body-service {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    visibility: hidden;
+
+}
+
+.service-card:hover .body-service {
+    visibility: visible;
+}
+
+.socail-media-icons a img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-menu ul {
+    list-style-type: none;
+    margin: 0px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+.about-us {
+    line-height: 33px;
+}
+
+input,
+textarea,
+select {
+    width: 100% !important;
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+}
+select{
+    padding: 10px;
+}
+textarea{
+    height: 200px;
+}

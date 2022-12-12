@@ -1,0 +1,44 @@
+:root{
+    --primary:#353535 !important;
+    --secondary:#6D6D6E !important;
+    --white:#ffffff !important;
+}
+.primary-color{
+    color: var(--primary) !important;
+}
+.primary-background-color{
+    background-color: var(--primary) !important;
+}
+.secondary-color{
+    color: var(--secondary) !important;
+}
+.secondary-background-color{
+    background-color: var(--secondary) !important;
+}
+.white-text{
+    color: var(--white) !important;
+}
+.navbar-toggler{
+background-color: var(--white) !important;    
+}
+.navbar-brand ,
+.nav-item a{
+    color: var(--white) !important;
+}
+.title-of-section{
+    color: var(--secondary);
+    font-weight: bold !important;
+}
+.box-shadow-theme{
+    box-shadow: 10px 10px 45px -2px rgba(0,0,0,0.28);
+-webkit-box-shadow: 10px 10px 45px -2px rgba(0,0,0,0.28);
+-moz-box-shadow: 10px 10px 45px -2px rgba(0,0,0,0.28);
+}
+footer{
+    background-color: var(--primary);
+}
+input,
+textarea,
+select{
+    background-color: #6d6d6e38;
+}
